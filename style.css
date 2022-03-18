@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Nunito+Sans:ital,wght@1,200&family=Syne+Tactile&display=swap');
+*{    
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:black;
+}
+body{
+
+    background:linear-gradient(110deg,#658de3 40%,#c53df1 70%);
+}
+
+.content{
+    height:70vh;
+    width:25vw;
+    border:2px solid black;
+    background-color:white;
+    margin:100px auto;
+    border-radius:11px;
+    
+}
+.form{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#heading{
+    margin:50px; 
+    text-align:center;
+    font-weight:bold;
+    color:black;
+}
+input{
+    text-align:center;
+    margin:25px;
+      border-color: aqua;
+      border-radius:7px;
+      font-size:19px;
+}
+input>username{
+    text-align:center;
+    margin:25px;
+      border-color: aqua;
+      border-radius:7px;
+      font-size:19px;
+
+}
+input>password{
+    text-align:center;
+    margin:25px;
+      border-color: aqua;
+      border-radius:7px;
+      font-size:19px;
+
+}
+input:focus{
+    border-color:aquamarine;
+    cursor:pointer;
+    width:250px;
+}
+h3{
+    text-align:center;
+}
+#submit{
+    display:block;
+    margin:25px auto;
+    width:100px;
+    color:white;
+    background-color:#c53df1;
+}
